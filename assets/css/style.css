@@ -2208,7 +2208,7 @@ textarea {
     top: 50%;
     transform: translateY(-50%);
     height: 4.625rem;
-    width: 7.5rem;
+    width:8.5rem;
     border-radius: var(--el-border-radius);
     display: flex;
     align-items: center;
@@ -2239,6 +2239,7 @@ textarea {
 
 .counter-min-info .counter-min-heading {
     margin-bottom: 0;
+    margin-left:20px;
     font-size: 1.125rem;
 }
 
