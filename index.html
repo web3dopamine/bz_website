@@ -21,7 +21,16 @@
 
 <link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
-
+<style>
+.wa-icon {
+  width: 50px;              /* icon size */
+  position: fixed;          /* make it stick */
+  bottom: 60px;             /* distance from bottom */
+  right: 10px;              /* distance from right */
+  z-index: 9999;            /* make sure it stays on top */
+  cursor: pointer;          /* show pointer on hover */
+}
+</style>
 </head>
 
 <body>
@@ -569,7 +578,9 @@
 		<div class="bff">
     
 </div>
-
+<a href="https://wa.me/60167754091" target="_blank" class="hover-link" data-title="">
+  <img src="assets/img/wa_icon.png" class="wa-icon">
+</a>
 <!-- Begin footer -->
 <footer class="footer footer-minimal">
     <div class="footer-main">
@@ -593,7 +604,7 @@
                                 <li><a href="#!" class="hover-link" data-title="Services" style="padding-top:10px"><span>Services</span></a></li>
                                 <!-- <li><a href="#!" class="hover-link" data-title="News"><span>News</span></a></li> -->
                                 <li><a href="#!" class="hover-link" data-title="Contacts" style="padding-top:10px"><span>Contacts</span></a></li>
-								<li><a href="https://wa.me/60167754091" target="_blank" class="hover-link" data-title=""><img src="assets/img/wa_icon.png" width="50px!important; float:right"></a></li>
+								<!-- <li><a href="https://wa.me/60167754091" target="_blank" class="hover-link" data-title=""><img src="assets/img/wa_icon.png" width="50px!important; float:right"></a></li> -->
                             </ul>
                         </nav>
 						<!-- <img src="assets/img/wa_icon.png" width="50px!important; float:right"> -->
