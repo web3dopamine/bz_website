@@ -1181,6 +1181,7 @@ blockquote footer {
 }
 
 .btn-top {
+    display: none!important;
     position: fixed;
     right: 15px;
     bottom: -5rem;
